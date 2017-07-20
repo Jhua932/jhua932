@@ -1,0 +1,91 @@
+<!--    HOME/LANDING PAGE THAT HYPERLINKS w/ Nav Bar....    -->
+
+<!doctype html>
+<html>
+<head>
+<title>John</title>
+<link rel="stylesheet" href="landing-styles.css">
+<!--  ATTEMPT AT A FANCY HEADER -->
+<header>
+  <img id="site-logo" src="https://www.caringpets.org/wp-content/uploads/take-care-of-a-goldfish.jpg" style="width:75px;height:75px;"></a>
+  <nav>
+    <ul>
+      <li><a href="https://jhua932.github.io/jhua932/landing">Home</a><li>
+      <li><a href="https://jhua932.github.io/jhua932/blog">Blog</a><li>
+      <li><a href="https://jhua932.github.io/jhua932/photogallery">Photo Gallery</a><li>
+      <li><a href="https://jhua932.github.io/jhua932/blog">Services</a><li>
+      <li><a href="https://jhua932.github.io/jhua932/contactme">Contact Me</a><li>
+    </ul>
+  </nav>
+</header>
+<!-- STARTING SITE BODY -->
+<body>
+
+  <div id="sidebar">
+  	<ul id="body-sidebar-ul">
+  		<li><a href="#">About Me</a></li>
+  		<li><a href="#">Education</a></li>
+  		<li><a href="#">Work Experiences</a></li>
+  		<li><a href="#">Skills</a></li>
+  		<li><a href="#">Awards/Honors</a></li>
+  	</ul>
+
+  	<div id="sidebar-btn">
+  		<span></span>
+			<span></span>
+      <span></span>
+  		</div>
+  	</div>
+
+<!-- Selection and JQuery Scripts -->
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script>
+  	$(document).ready(function(){
+  		$('#sidebar-btn').click(function(){
+  			$('#sidebar').toggleClass('visible');
+  		});
+  	});
+    </script>
+
+  <div id="body-main">
+
+    <div id="body-generate2">
+      <p> ABOUT ME </p>
+    </div>
+
+    <div id="body-generate3">
+      <p> EDUCATION </p>
+    </div>
+
+    <div id="body-generate3">
+      <p> WORK EXPERIENCE </p>
+    </div>
+
+    <div id="body-generate3">
+      <p> AWARDS/HONORS </p>
+    </div>
+
+    <div id="body-generate3">
+      <p> SKILLS </p>
+    </div>
+
+
+  </div>
+
+
+
+</body>
+</html>
+
+<!-- <div class="About">
+  <h1> ABOUT THIS WEBSITE</h1>
+    <p> REPLACE ME LATER *rolleye emoji</p>
+
+    <div class="About-Text"
+    <p> testing some words <p>
+    </div>
+      <div class="About-Learn"
+      <p> testing words pt 2>
+      </div>
+</div> -->
